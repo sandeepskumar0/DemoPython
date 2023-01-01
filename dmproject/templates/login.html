@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body style="background-color:pink">
+<center>
+<form action="login" method="post">
+  {% csrf_token %}
+  <label for="username"><b>user name   :</b></label>
+  <input type="username" name="username" placeholder="Enter your Username"><br>
+   <label for="password"><b>Password  :</b></label>
+  <input type="password" name="password" placeholder="Enter your password"><br>
+    <button type="submit" class="registerbtn">Register</button>
+   <footer>
+    <p>@copy; ASPRIME PVT LTD. All rights Reserved</p>
+       </footer>
+</form>
+</center>
+</body>
+</html>
